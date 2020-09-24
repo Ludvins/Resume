@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\usepackage[a4paper,bindingoffset=0.2in,%
+            left=0.1in,right=1in,top=0.1in,bottom=0.5in,%
+            footskip=.25in]{geometry}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+\addtolength{\topmargin}{-.5in}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Luis Antonio Ortega Andrés\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\raggedright
+\begin{tabular}{ll}
+\textsc{Email:} & \href{mailto:theludvins@gmail.com}{\texttt{theludvins@gmail.com}}\\
+\textsc{Github} & \url{https://github.com/Ludvins}\\
+\textsc{LinkedIn} & \url{https://LinkedIn.com/in/Ludvins}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{lp{11cm}}
+    \textsc{2015-2020}
+  & \textsc{Bachelor Degree in Computer Science}\\
+  & \footnotesize University of Granada, Spain\\
+  & \footnotesize Specialized in Machine Learning.\\
+ 
+  \textsc{2015-2020}
+  & \textsc{Bachelor Degree in Mathematics}\\
+  & \footnotesize University of Granada, Spain\\
+  & \footnotesize Specialized in Probability and Algebra. \\
+
+  \textsc{2020-now}
+  & \textsc{Master Degree in Data Science}\\
+  & \footnotesize Autonomous University of Madrid, Spain\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Projects and Communities}
+\begin{tabular}{r|p{11cm}}
+  \textsc{Bachelor's Thesis} & \textsc{Statistical Models with Variational Methods} \hfill Grade: 10/10 \\
+  \footnotesize &  \footnotesize Variational methods of inference and graphical models. Theorical study in conditionally conjugate models and extension by neural networks.\\
+                             & \footnotesize \url{https://github.com/Ludvins/Statistical-Models-with-Variational-Methods}\\
+  \multicolumn{2}{c}{} \\
+
+  % \textsc{Android} & \textsc{Minimalist Todo App in Kotlin}\\
+  % \textsc{Development} &  \footnotesize  Self-learning project in Android and Kotlin.\\
+  %                            & \footnotesize \url{https://github.com/Ludvins/KotlinTodoApp}\\
+  % \multicolumn{2}{c}{} \\
+
+  \textsc{Metaheuristics} & \textsc{Feature Weight Learning} \\
+                             & \footnotesize Genetic algorithms and optimization techniques in a classification problem in \textbf{\textsc{Rust}}.\\
+                             & \footnotesize \url{https://github.com/Ludvins/MH}\\
+  \multicolumn{2}{c}{} \\
+
+  \textsc{Competitions} & \textsc{Tuenti Challenge 2019 \& 2020} \\
+  \textsc{\& Hackathons} &  \footnotesize Individual competition where you try to solve as much problems as you can in a week. Ranked 71 in 2019 and 101 in 2020.\\
+                             & \textsc{CodeJam 2019}\\
+                             &  \footnotesize  Individual round-based competition where I passed found one and ranked 2233 on round 2.\\
+                             & \textsc{HashCode 2019 \& 2020}\\
+                             &  \footnotesize  Team based competition. Participated twice where we ranked 1620 globally in 2019 and 4771 in 2020.\\
+                             & \footnotesize \url{https://github.com/Ludvins/Programming-Contests}\\
+                             & \textsc{HackUPC 2019}\\
+                             &  \footnotesize  Hackathon organized by Barcelona's University where my team and I faced a data science challenge. \url{https://github.com/Ocete/Hack-the-Crash}\\
+  \multicolumn{2}{c}{} \\
+
+  \textsc{LibreIM} & \footnotesize  Nonprofit organization aimed at the popularization of mathematics and computer science, specially focused on free and open-source software and knowledge. Collaborated on writing and correcting notes on several subjects.\\
+                             & \footnotesize \url{https://libreim.github.io}\\
+    \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{ll}
+\textsc{Spanish:} & Native\\
+\textsc{English:} & Fluent - Cambridge Certificate in Advanced English - August 2020\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+  Advanced Knowledge: & \textsc{Python}, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}, \textsc{Git}\\
+  Intermediate Knowledge: & \textsc{java}, \textsc{C}, \textsc{Keras}, \textsc{Pandas}, \textsc{R}, \textsc{Linux}, \textsc{Android}, \textsc{Kotlin}, \textsc{Rust}, \textsc{C++}\\
+  Basic Knowledge: & \textsc{html}, my\textsc{sql}, \textsc{css}, \textsc{javascript}, \textsc{C\#}, \textsc{Ruby}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+technology, programming, open-source, shared knowledge, applied mathematics
+machine learning, deep learning, statistical techniques, computer vision and variational inference\\
+
+\end{document}
